@@ -1,7 +1,8 @@
-print ('welcome to Nero, allow me to start your Nero AI. Nero AI uses Mycroft Core technologies. Please wait...')
+say Welcome to Nero, allow me to start your Nero AI. Nero AI uses Mycroft Core technologies. Please wait...
 cd ~/
 git clone https://github.com/MycroftAI/mycroft-core.git
 cd mycroft-core
 bash dev_setup.sh
 cd ~/mycroft-core
 ./start-mycroft.sh debug
+say Currently, Nero only uses Mycroft. But within Mycroft, you can do NUMEROUS things. The Nero Mac App can do so much more. Working on that now.
