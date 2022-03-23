@@ -5,4 +5,7 @@ cd mycroft-core
 bash dev_setup.sh
 cd ~/mycroft-core
 ./start-mycroft.sh debug
+#Make sure VNC is activated if you plan to run headless later. do this with the next command for a RPI, or install using the GUI on another board or macOS.
+sudo raspi-config
 say Currently, Nero only uses Mycroft. But within Mycroft, you can do NUMEROUS things. The Nero Mac App can do so much more. Working on that now.
+#Mycroft AI is unstable as of March 23rd, 2022
